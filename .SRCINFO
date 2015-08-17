@@ -1,0 +1,17 @@
+pkgbase = ruby-puma
+	pkgdesc = Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications
+	pkgver = 2.10.2
+	pkgrel = 1
+	url = http://puma.io
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = ruby
+	depends = ruby-rack
+	noextract = puma-2.10.2.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/puma-2.10.2.gem
+	sha1sums = 5428d393463c5adb1e1c39aaed1c67e5f11e79b9
+
+pkgname = ruby-puma
+
